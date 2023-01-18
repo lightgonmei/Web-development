@@ -1,0 +1,41 @@
+body 
+                {
+            background: url('../pictures/background-cover.jpeg');
+            width:900;
+            height:900;
+                }
+        p 
+            {
+                color:rgb(9, 10, 10);
+            }
+        .kungmei{
+            border:3px;
+            width:300px;
+            height:400px;
+            padding:5;
+            border: 4px;
+        }
+        header{
+            background-color: none;
+            height:auto;
+            background-size:auto;
+            background-position: center;
+        }
+        ul{
+            float: right;
+            list-style-type:circle;
+            margin-top: 40px;
+        }
+        ul li{
+            display:initial;
+        }
+        ul li a{
+            text-decoration:transparent;
+            color: #fff;
+            padding: 5px solid transparent;
+            transition: 0.5s ease;
+        }
+        ul li a:hover{
+            background-color:#fff;
+            color:black;
+        }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body 
+                {
+            background: url('../pictures/background-cover.jpeg');
+            width:900;
+            height:900;
+                }
+        p 
+            {
+                color:rgb(9, 10, 10);
+            }
+        .kungmei{
+            border:3px;
+            width:600px;
+            height:400px;
+            padding:5;
+            border: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!--Form-->
+    <form action="tupul.php" method="post">
+        <fieldset> <legend align="center" padding="20px"> Fill the registration form</legend>
+<label>* Name:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</label><input type="text." placeholder="write your  name:" >
+<label>* Surname:</label><input type="text" placeholder="surname">
+<br><p>
+<label>* Address:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text">
+            </p>
+           
+            <label>* mobile number:</label> <input type="digit">&nbsp;
+            <label>-Choose your favorite collor: </label><input type="color"><br><p>
+            <label>* DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label><input type="date">
+            </p>
+            <p>
+                <label>* Present Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="number" max="25">
+            </p>
+            <p>
+                <label>* Gender:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="male" id="male"><label>male</label>
+                &nbsp;&nbsp;
+                <input type="radio" name="male" id="female"> <label>female</label>
+            </p>
+            <!-- Categories option-->
+            <p>
+               <label># Select Category:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="category">
+                    <option>OBC</option>
+                    <option>GENERAL</option>
+                    <option>ST</option>
+                    <option>SC</option>
+                    <option>OTHERS</option>
+                </select>
+            </p>
+            <!--COURSE OPTION AREA-->
+            <p>
+                <label># Select course:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <optgroup label="* Long term courses">
+                        <option>MCA</option>
+                        <option>BCA</option>
+                        <option>O LEVEL</option>
+                        <option>DIPLOMA</option>
+                    </optgroup>
+                            <optgroup label="* Short term Courses">
+                                <option>CCC</option>
+                                <option>DCA</option>
+                                <option>CAN</option>
+                                <option>CAAP</option>
+                            </optgroup>
+                                <optgroup label="* Skill Oriented Courses">
+                                    <option>SOLAR</option>
+                                    <option>TS</option>
+                                    <option>LED REPAIR</option>
+                                    <option>AC REPAIR</option>
+                                </optgroup>
+                </select>
+                </p>
+            <!-- Document upload area-->
+            <label> <u># Upload given document </u> </label>
+            <br>
+            <label> * Aadhar:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="file">
+                <br>
+            <label>* 12 marksheet:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="file">
+            <br>
+            <label>* Income certificate:&nbsp;&nbsp;</label><input type="file"><br>
+            <p>
+                <center> <label>* Final submit:</label><BR>
+           <input type="submit" value="OK"></p> </center>
+           
+
+            <!--End-Form-->
+        </fieldset>
+    </form>
+        <div>
+          <marquee direction="left" scrollamount="9" border="10px">  <img src="C:\Users\lenovo\Desktop\practise5\pictures\kungmei.jpg" class="kungmei" border="10px"></marquee>
+        </div>
+    
+</body>
+</html>
